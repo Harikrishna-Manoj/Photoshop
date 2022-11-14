@@ -1,0 +1,112 @@
+.main{
+height: 700px;
+display: flex;
+}
+.blue-background{
+    height: 700px;
+    width: 50%;
+    background-color: rgb(46, 168, 250);
+    padding: 9rem;
+   
+
+    }
+.bold-text{
+    font-size: 44px;
+    color: #2C2C2C;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,
+                 BlinkMacSystemFont,Segoe UI,Roboto,sans-serif
+}
+
+.head-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: inline-block;
+    width: 33rem;
+    font-size: 22px;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,
+    BlinkMacSystemFont,Segoe UI,Roboto,sans-serif
+    
+}
+.text-bold{
+    
+    font-size: 22px;
+    font-weight: 700;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,
+    BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.button1{
+border-radius: 25px;
+min-height: 50px;
+padding: 0 23px;
+font-size: 19px;
+line-height: 24px;
+font-family:adobe-clean-bold,adobe-clean,Helvetica Neue,Helvetica,sans-serif; 
+font-weight: 550;
+background-color: transparent;
+transition: .5s;
+}
+.button1:hover{
+cursor: pointer;
+background-color: #2C2C2C;
+color: white;
+}
+
+.button2{
+    border: none;
+    border-radius: 25px;
+    min-height: 50px;
+    padding: 0 23px;
+    font-size: 19px;
+    line-height: 24px;
+    font-family:adobe-clean-bold,adobe-clean,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight: 550;
+    background-color: #0d66d0;
+    color: white;
+    transition: .5s;
+    }
+    .button2:hover{
+    cursor: pointer;
+    background-color:#1358ac;
+    
+    }
+    
+    .plan{
+        font-size: 14px;
+        font-weight: 600;
+        font-family:adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+
+    .plan a{
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+        font-family:adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    }
+
+.image{
+    height: 700px;
+    width: 50%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icon img{
+    height: 60px;
+    margin-bottom: 30px
+}
+

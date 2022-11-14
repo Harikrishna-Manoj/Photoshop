@@ -1,0 +1,47 @@
+.botton-region{
+display:flex;
+justify-content: space-between;
+padding: 2rem;
+
+}
+
+.region{
+    display: flex;
+    gap: 20px;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: none;
+    height: 22px;
+}
+
+.region a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.region a:hover{
+    cursor: pointer;
+    color: rgb(123, 117, 117);
+}
+
+.term-list{
+    display: flex;
+    font-size: 11px;
+    text-decoration: none;
+    gap: 3px;
+}
+
+
+
+.term-list a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.term-list img{
+    height: 22px;
+    margin-top: -2px;
+
+}
